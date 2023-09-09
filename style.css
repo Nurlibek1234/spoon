@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+:root {
+    --franklin: 'Libre Franklin', sans-serif;
+    --ibm: 'IBM Plex Mono', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding-top: 22px;
+    background-image: url(./img/IMAGE\ \(1\).png);
+}
+
+header nav {
+    width: 1170px;
+    margin-left: 135px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    align-items: center;
+    grid-gap: 40px;
+}
+
+header nav ul li a {
+    color: rgba(255, 255, 255, 1);
+    font-family: var(--franklin);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+header nav ul li:last-child span {
+    width: 120px;
+    height: 46px;
+    border: 2px solid #FFFF;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: var(--franklin);
+    align-items: center;
+    padding: 11px 17px;
+}
+
+header .header-title {
+    margin-top: 135px;
+    text-align: center;
+    color: white;
+}
+
+header .header-title h1 {
+    font-family: var(--franklin);
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 78px;
+    letter-spacing: 1px;
+}
+
+header .header-title p {
+    padding-top: 35px;
+    font-family: var(--ibm);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+header .header-title button {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    width: 160px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: #5AB963;
+    border: none;
+    color: #FFFFFF;
+    font-family: var(--franklin);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+section.text {
+    width: 1170px;
+    margin: auto;
+}
+
+section.text h2 {
+    margin-top: 120px;
+    font-family: var(--franklin);
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(153, 153, 153, 1);
+}
+
+section.text h2 span {
+    font-family: var(--franklin);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+}
+
+section.text .photos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+}
+
+section.text .box {
+    width: 377px;
+    height: 330px;
+    margin-top: 55px;
+    margin-left: 40px;
+}
+
+section.text .box h3 {
+    margin-top: 25px;
+    font-family: var(--franklin);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+section.text .box p {
+    margin-top: 13px;
+    font-family: var(--ibm);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(153, 153, 153, 1);
+}
+
+section.foto {
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+}
+
+section.main {
+    width: 940px;
+    margin: auto;
+}
+
+section.main .paragraph {
+    text-align: center;
+    margin-top: 115px;
+    margin-bottom: 140px;
+    font-family: var(--franklin);
+    font-weight: 100px;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(153, 153, 153, 1);
+}
+
+section.main .paragraph span {
+    font-family: var(--franklin);
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+}
+
+section.main .paragraph span:last-child {
+    margin-top: 6px;
+    font-family: var(--ibm);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: rgba(90, 185, 99, 1);
+    text-transform: uppercase;
+}
+
+section.food {
+    width: 1170px;
+    margin: auto;
+}
+
+section.food .mains {
+    margin-top: 120px;
+    margin-bottom: 285px;
+}
+
+section.food .mains .card:nth-of-type(1) {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 100px;
+}
+
+section.food .mains .card:nth-of-type(1) h3 {
+    margin-top: 3px;
+    margin-bottom: 25px;
+    font-family: var(--franklin);
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(153, 153, 153, 1);
+}
+
+section.food .mains .card:nth-of-type(1) h3 span {
+    font-family: var(--franklin);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+}
+
+section.food .mains .card:nth-of-type(1) p {
+    font-family: var(--ibm);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: rgba(153, 153, 153, 1);
+}
+
+section.food .mains .card:nth-of-type(2) {
+    padding-top: 90px;
+    margin-left: 230px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 100px;
+}
+
+section.food .mains .card:nth-of-type(2) h3 {
+    margin-top: 3px;
+    margin-bottom: 25px;
+    font-family: var(--franklin);
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(153, 153, 153, 1);
+}
+
+section.food .mains .card:nth-of-type(2) h3 span {
+    font-family: var(--franklin);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+}
+
+section.food .mains .card:nth-of-type(2) p {
+    font-family: var(--ibm);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(153, 153, 153, 1);
+}
+
+section.food .mains h4 {
+    margin-top: 110px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-family: var(--franklin);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+section.food .mains p {
+    text-align: center;
+    font-family: var(--ibm);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: rgba(90, 185, 99, 1);
+}
+
+section.party {
+    width: 1170px;
+    margin: auto;
+
+}
+
+section.party .cards {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+}
+
+section.party .cards .box:nth-of-type(1) h5 {
+    font-family: var(--franklin);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(90, 185, 99, 1);
+    margin-bottom: 15px;
+}
+
+section.party .cards .box p {
+    font-family: var(--franklin);
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(153, 153, 153, 1);
+}
+
+section.party .cards .box p span {
+    font-family: var(--franklin);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+}
+
+section.party .cards .box:nth-of-type(2) button {
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: var(--franklin);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(90, 185, 99, 1);
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(10, 14, 26, 1);
+}
+
+footer .Card {
+    width: 1170px;
+    height: 399px;
+    margin: auto;
+    padding-top: 120px;
+    
+}
+
+footer .Card .mains {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .Card .mains .box p {
+    margin-top: 15px;
+    font-family: var(--franklin);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(102, 102, 102, 1);
+}
+
+footer .Card .mains .box:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 60px;
+}
+
+footer .Card .box:nth-of-type(2) ul li a {
+    display: block;
+    margin-bottom: 25px;
+}
+
+footer .Card .mains .box:nth-of-type(2) .icons .fa-brands {
+    margin-left: 20px;
+    color: #FFFFFF;
+}
